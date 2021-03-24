@@ -53,7 +53,7 @@ public class EAzureBlobStorageImage extends ReactContextBaseJavaModule{
                         handler.post(new Runnable() {
 
                             public void run() {
-                                Toast.makeText(ctx, "Image Uploaded Successfully...", Toast.LENGTH_SHORT).show();
+                                // Toast.makeText(ctx, "Image Uploaded Successfully...", Toast.LENGTH_SHORT).show();
                                 promise.resolve(imageName);
                             }
                         });
